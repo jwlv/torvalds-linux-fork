@@ -1,0 +1,39 @@
+08/23 09:27:35 joshs:Week_4 0> git clone git@github.com:jwlv/torvalds-linux-fork.git
+Cloning into 'torvalds-linux-fork'...
+remote: Enumerating objects: 9601431, done.
+remote: Counting objects: 100% (44/44), done.
+remote: Compressing objects: 100% (26/26), done.
+remote: Total 9601431 (delta 22), reused 29 (delta 18), pack-reused 9601387
+Receiving objects: 100% (9601431/9601431), 4.39 GiB | 2.51 MiB/s, done.
+Resolving deltas: 100% (7857423/7857423), done.
+Updating files: 100% (81099/81099), done.
+warning: the following paths have collided (e.g. case-sensitive paths
+on a case-insensitive filesystem) and only one from the same
+colliding group is in the working tree:
+
+  'include/uapi/linux/netfilter/xt_CONNMARK.h'
+  'include/uapi/linux/netfilter/xt_connmark.h'
+  'include/uapi/linux/netfilter/xt_DSCP.h'
+  'include/uapi/linux/netfilter/xt_dscp.h'
+  'include/uapi/linux/netfilter/xt_MARK.h'
+  'include/uapi/linux/netfilter/xt_mark.h'
+  'include/uapi/linux/netfilter/xt_RATEEST.h'
+  'include/uapi/linux/netfilter/xt_rateest.h'
+  'include/uapi/linux/netfilter/xt_TCPMSS.h'
+  'include/uapi/linux/netfilter/xt_tcpmss.h'
+  'include/uapi/linux/netfilter_ipv4/ipt_ECN.h'
+  'include/uapi/linux/netfilter_ipv4/ipt_ecn.h'
+  'include/uapi/linux/netfilter_ipv4/ipt_TTL.h'
+  'include/uapi/linux/netfilter_ipv4/ipt_ttl.h'
+  'include/uapi/linux/netfilter_ipv6/ip6t_HL.h'
+  'include/uapi/linux/netfilter_ipv6/ip6t_hl.h'
+  'net/netfilter/xt_DSCP.c'
+  'net/netfilter/xt_dscp.c'
+  'net/netfilter/xt_HL.c'
+  'net/netfilter/xt_hl.c'
+  'net/netfilter/xt_RATEEST.c'
+  'net/netfilter/xt_rateest.c'
+  'net/netfilter/xt_TCPMSS.c'
+  'net/netfilter/xt_tcpmss.c'
+  'tools/memory-model/litmus-tests/Z6.0+pooncelock+poonceLock+pombonce.litmus'
+  'tools/memory-model/litmus-tests/Z6.0+pooncelock+pooncelock+pombonce.litmus'
